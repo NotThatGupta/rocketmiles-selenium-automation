@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="43688" started-at="2017-02-14T06:16:44Z" finished-at="2017-02-14T06:17:28Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="43688" started-at="2017-02-14T06:16:44Z" finished-at="2017-02-14T06:17:28Z">
+      <class name="com.rocketmiles.search.SearchTests">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="initTestSuite" is-config="true" duration-ms="14" started-at="2017-02-14T00:16:44Z" finished-at="2017-02-14T00:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="beforeClass" is-config="true" duration-ms="32" started-at="2017-02-14T00:16:44Z" finished-at="2017-02-14T00:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="initWebDriver" is-config="true" duration-ms="7203" started-at="2017-02-14T00:16:44Z" finished-at="2017-02-14T00:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-02-14T00:16:52Z" finished-at="2017-02-14T00:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCurrentLocationSearch()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="testCurrentLocationSearch" duration-ms="14466" started-at="2017-02-14T00:16:52Z" finished-at="2017-02-14T00:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentLocationSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="afterMethod" is-config="true" duration-ms="196" started-at="2017-02-14T00:17:06Z" finished-at="2017-02-14T00:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="initWebDriver" is-config="true" duration-ms="7039" started-at="2017-02-14T00:17:06Z" finished-at="2017-02-14T00:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-02-14T00:17:13Z" finished-at="2017-02-14T00:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTopLocationsSearches(com.rocketmiles.search.parameters.DEFAULT_LOCATIONS)[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="testTopLocationsSearches" duration-ms="14552" started-at="2017-02-14T00:17:13Z" data-provider="TopLocations" finished-at="2017-02-14T00:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vegas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopLocationsSearches -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="afterMethod" is-config="true" duration-ms="175" started-at="2017-02-14T00:17:28Z" finished-at="2017-02-14T00:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTests@783e6358]" name="tearDown" is-config="true" duration-ms="728" started-at="2017-02-14T00:17:28Z" finished-at="2017-02-14T00:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rocketmiles.search.SearchTests -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
